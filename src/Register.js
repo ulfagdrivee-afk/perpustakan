@@ -7,9 +7,9 @@ class Register extends Component {
 
     const form = e.target;
     const data = {
-      'name' : form.name.value,
-      'email' : form.email.value,
-      'password' : form.password.value,
+      name : form.name.value,
+      email : form.email.value,
+      password : form.password.value,
     //   role: form.role.value,
     };
     try {

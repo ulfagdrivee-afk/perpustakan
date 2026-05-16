@@ -2,10 +2,10 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './login';
-import Anggota from './anggota';
+import Anggota from './Anggota';
 import Register from './Register';
 import Home from './Home';
-import anggota from './anggota';
+// import Anggota from './Anggota';
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
     <Route path='/' element={<Register/>}/>
     <Route path='/register' element={<Register/>}/>
     <Route path='/login' element={<Login/>}/>
-    <Route path='/anggota' element={<Anggota/>}/>
+    <Route path='/home/anggota' element={<Anggota/>}/>
     <Route path='/home' element={<Home/>}/>
 
         </Routes>
