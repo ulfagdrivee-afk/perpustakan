@@ -22,6 +22,8 @@ class Home extends Component{
           <h3 className="logo">Tabungan digital</h3>
           <div className="nav-links">
             <Link to="anggota">Anggota</Link>
+            <Link to="buku">Buku</Link>
+            <Link to="petugas">Petugas</Link>
             {/* <Link to="currencies">Mata Uang</Link>
             <Link to="categories">Categories</Link>
             <Link to="wallets">Dompet</Link>

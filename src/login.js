@@ -17,18 +17,18 @@ class Login extends Component {
   );
 
   const token = res.data.data.token;
-  const role = res.data.data.role;
+//   const role = res.data.data.role;
 
   localStorage.setItem("token", token);
-  localStorage.setItem("role", role);
+//   localStorage.setItem("role", role);
 
   alert("Login Berhasil");
 
-  if (role === "admin") {
+//   if (role === "admin") {
     window.location.href = "/home";
-  } else {
+//   } else {
     window.location.href = "/home";
-  }
+//   }
 
 } catch(err){
   console.log(err);
